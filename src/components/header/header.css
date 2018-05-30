@@ -1,11 +1,15 @@
-root {
-    flex: 1;
+.appHeader {
+    flex-grow: 1;
 }
 
-flex {
+.titleName {
     flex: 1;
 }
-menuButton {
+.menuButton {
     margin-left: -12;
     margin-right: 20;
+}
+
+.appHeader button {
+    flex:initial;
 }

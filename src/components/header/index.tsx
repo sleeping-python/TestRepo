@@ -11,14 +11,14 @@ import './header.css';
 
 export function Header() {
     return (
-    <div className='root'>
+    <div className='appHeader'>
       <AppBar position="static">
         <Toolbar>
           <IconButton className='menuButton' color="inherit" aria-label="Menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="title" color="inherit" className='flex'>
-            Title
+          <Typography variant="title" color="inherit" className='titleName'>
+            An Awesome page
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
